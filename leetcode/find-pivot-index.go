@@ -1,3 +1,5 @@
+package leetcode
+
 // https://leetcode.com/problems/find-pivot-index/
 func pivotIndex(nums []int) int {
 	leftSum := make([]int, len(nums))
