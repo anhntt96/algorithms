@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 //https://leetcode.com/problems/add-two-numbers/
 type ListNode struct {
@@ -29,14 +29,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 
 	return head.Next
-}
-
-func main() {
-	a12 := ListNode{1, nil}
-	a11 := ListNode{2, &a12}
-
-	a22 := ListNode{1, nil}
-	a21 := ListNode{2, &a22}
-
-	addTwoNumbers(&a11, &a21)
 }
